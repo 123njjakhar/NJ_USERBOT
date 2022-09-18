@@ -1,16 +1,16 @@
-[![LEGENDBOT](https://telegra.ph/file/2dfd3e6d9007aabffad92.jpg)](https://github.com/ITS-LEGENDBOT/LEGENDBOT)
+[![NJ_USERBOT](https://telegra.ph/file/f41db80f0d31b135eed38.jpg)](https://github.com/123njjakhar/NJ_USERBOT)
 
 
 <h1 align="center">
-<b> 『Lêɠêɳ̃dẞø†』 </b>
+<b> 『NJ_USERBOT』 </b>
 </h1>
 
 <h6 align="center">
-  <b>⚡ Presenting a LegendBot. Which Is One Of The Fastest & Smoothest Bot On Telegram Based on Telethon ⚡</b>
+  <b>⚡ Presenting a NJ_USERBot. Which Is One Of The Fastest & Smoothest Bot On Telegram Based on Telethon ⚡</b>
 </h6>
 
 
-[![](https://img.shields.io/badge/LegendBot-v2.0-blue)](#)
+[![](https://img.shields.io/badge/NJ_USERBOT-v2.0-blue)](#)
 [![Stars](https://img.shields.io/github/stars/LEGEND-AI/LEGENDBOT?style=flat-square&color=yellow)](https://github.com/LEGEND-AI/LEGENDBOT/stargazers)
 [![Forks](https://img.shields.io/github/forks/LEGEND-AI/LEGENDBOT?style=flat-square&color=orange)](https://github.com/LEGEND-AI/LEGENDBOT/fork)
 [![Size](https://img.shields.io/github/repo-size/LEGEND-AI/LEGENDBOT?style=flat-square&color=green)](https://github.com/LEGEND-AI/LEGENDBOT/)   
@@ -30,8 +30,8 @@
 ------
 
 ## Telegram 🏪
-- [![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/Legend_K_Userbot)
-- [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/Official_K_LegendBot)
+- [![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/AJ_NJ_SOS)
+- [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/AJ_NJ_SOS)
 
 ------
 
@@ -71,12 +71,12 @@
 [![Run on Repl.it](https://replit.com/badge/github/LEGEND-AI/LEGENDBOT)](https://replit.com/@KrishnaJaiswal1/LEGENDBOT#main.py)
 
 - To Get Details Of StringSession Follow Step: 
-- Go To Telegram And Search @Legend_SessionGeneratorBot
+- Go To Telegram And Search @STRING_Generatorr_Bot
 - Click Start
-- Send Ur Phone Number To @Legend_SessionGeneratorBot
+- Send Ur Phone Number To @STRING_Generatorr_Bot
 - U Received Code From Telegram Like This=278291
 - Copy Ur Code
-- Send The Code To @Legend_SessionGeneratorBot with Each Space
+- Send The Code To @STRING_Generatorr_Bot with Each Space
 - Check SAVED MESSAGE
 
 ### Terminal
@@ -99,9 +99,9 @@
 
 - `sudo apt install --no-install-recommends -y curl git libffi-dev libjpeg-dev libwebp-dev python3-lxml python3-psycopg2 libpq-dev libcurl4-openssl-dev libxml2-dev libxslt1-dev python3-pip python3-sqlalchemy openssl wget python3 python3-dev libreadline-dev libyaml-dev gcc zlib1g ffmpeg libssl-dev libgconf-2-4 libxi6 unzip libopus0 libopus-dev python3-venv libmagickwand-dev pv tree mediainfo`
 
-- `git clone https://github.com/ITS-LEGENDBOT/LEGENDBOT` 
+- `git clone https://github.com/123njjakhar/NJ_USERBOT
 
-- `cd LEGENDBOT`
+- `cd NJ_USERBOT`
 
 - `sudo apt install virtualenv`
 
@@ -113,7 +113,7 @@
 
 - `sudo apt install screen`
 
-- `screen -S LEGENDBOT`
+- `screen -S NJ_USERBOT`
 
 - `virtualenv venv`
 
