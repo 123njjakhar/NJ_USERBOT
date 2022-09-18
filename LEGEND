@@ -46,10 +46,10 @@ _run_python_code() {
     python3${pVer%.*} -c "$1"
 }
 
-_run_njpackgit() {
+_run_legendpackgit() {
     $(_run_python_code 'from git import Repo
 import sys
-OFFICIAL_UPSTREAM_REPO = "https://github.com/123njjakhar/NJ_USERBOT"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/LEGEND-AI/LEGENDBOT"
 ACTIVE_BRANCH_NAME = "master"
 repo = Repo.init()
 origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
@@ -58,7 +58,7 @@ repo.create_head(ACTIVE_BRANCH_NAME, origin.refs[ACTIVE_BRANCH_NAME])
 repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 }
 
-_run_NJgit() {
+_run_legendgit() {
     local repolink=$(_get_repolink)
     $(_run_python_code 'from git import Repo
 import sys
@@ -73,22 +73,22 @@ repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 
 _start_bot () {
     local zippath
-    zippath="NJ_USERBOT.zip"
+    zippath="LEGENDBOT.zip"
     echo "  Downloading source code ..."
     wget -q $(_get_zlink) -O "$zippath"
     echo "  Unpacking Data ..."
-    NJPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
+    LEGENDPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
     echo "Done"
     echo "  Cleaning ..."
     rm -rf "$zippath"
-    _run_NJpackgit
-    cd $NJPATH
-    _run_NJgit
+    _run_legendpackgit
+    cd $LEGENDPATH
+    _run_legendgit
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
-    echo "    Starting NJ_UserBot    "
-    python3 -m NJ_USERbot
+    echo "    Starting LegendUserBot    "
+    python3 -m Legendbot
 }
 
 _start_bot
