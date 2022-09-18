@@ -1,1 +1,1 @@
- worker: bash NJ
+ worker: bash LEGEND
